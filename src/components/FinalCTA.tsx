@@ -3,11 +3,6 @@ import React from "react";
 const FinalCTA: React.FC = () => (
   <section className="relative z-10 py-20 mb-20 bg-[#EEF2FF]">
     <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-lg px-8 py-16 flex flex-col items-center">
-      <img
-        src="/src/assets/wc-big.png"
-        alt="Webflow Agency"
-        className="w-20 h-20 mb-6 rounded-2xl shadow-md"
-      />
       <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
         Ready to focus better
       </h2>

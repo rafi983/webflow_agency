@@ -1,10 +1,11 @@
 import React from "react";
+import heroBg from "../assets/Hero-bg.png";
 
 const Hero: React.FC = () => (
   <section className="relative w-full min-h-screen flex flex-col items-center justify-center">
     <div className="absolute inset-0 w-full h-full pointer-events-none select-none">
       <img
-        src="/src/assets/Hero-bg.png"
+        src={heroBg}
         alt="Hero Background"
         className="w-full h-full object-cover"
       />
